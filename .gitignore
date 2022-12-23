@@ -1,0 +1,14 @@
+#buat list jenis file yang akan diabaikan
+#contoh *.log , logs (tanda * diisi dengan nama filenya)  
+# abcd.log
+# Debug.log
+# foo.log
+# .log
+# logs/debug.log
+# logs
+# logs/debug.log
+# logs/latest.foo.bar
+# build/logs
+# build/logs/debug.log
+# contoh di case ini mengabaikan file credential.json
+credentials.json
